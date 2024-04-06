@@ -1,18 +1,12 @@
 @use "../../presets" as *;
 @use "../../mixins" as *;
 
-main {
-  display: flex;
-  flex-direction: column;
-  background-color: $color-light;
-}
 
 .section {
   padding-top: 112px;
   padding-bottom: 92px;
   margin: 0 auto;
   background-color: $color-light;
-  max-width: $container-sm;
 
   &__title {
     font-weight: 500;
@@ -26,4 +20,9 @@ main {
     text-align: center;
     line-height: $line-height-large;
   }
+}
+
+.process.section {
+  background-color: $color-gray-light;
+  justify-self:stretch;
 }

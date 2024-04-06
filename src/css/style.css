@@ -226,6 +226,9 @@ a {
   width: min(100% - 40px, 1110px);
   margin-inline: auto;
 }
+.container-sm {
+  width: 540px;
+}
 
 .header {
   background-color: #eeeff1;
@@ -352,18 +355,11 @@ a {
   text-transform: uppercase;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  background-color: #f9f9f9;
-}
-
 .section {
   padding-top: 112px;
   padding-bottom: 92px;
   margin: 0 auto;
   background-color: #f9f9f9;
-  max-width: 540px;
 }
 .section__title {
   font-weight: 500;
@@ -375,6 +371,11 @@ main {
   color: #727272;
   text-align: center;
   line-height: 1.65;
+}
+
+.process.section {
+  background-color: #eeeff1;
+  justify-self: stretch;
 }
 
 .experience {
@@ -435,7 +436,7 @@ main {
 }
 
 .video {
-  background-color: #f9f9f9;
+  background-color: #eeeff1;
   padding-bottom: 100px;
 }
 .video__iframe {
