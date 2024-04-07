@@ -20,6 +20,6 @@
   margin-inline: auto;
 
   &-sm {
-    width: $container-sm;
+    width:min(100% - $gap-lg, $container-sm) ;
   }
 }

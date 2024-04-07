@@ -227,7 +227,7 @@ a {
   margin-inline: auto;
 }
 .container-sm {
-  width: 540px;
+  width: min(100% - 40px, 540px);
 }
 
 .header {
